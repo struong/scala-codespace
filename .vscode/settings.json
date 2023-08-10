@@ -1,0 +1,30 @@
+{
+  // Font
+  "editor.fontFamily": "Monaco, Menlo, monospace",
+  "terminal.integrated.fontFamily": "Monaco, Menlo, monospace",
+
+  // Formatting
+  "editor.defaultFormatter": "scalameta.metals",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+
+  // Indentation
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+
+  // Line length
+  "editor.rulers": [ 100 ],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 100,
+
+  // Whitespace
+  "editor.renderWhitespace": "boundary",
+
+  // Various
+  "explorer.sortOrder": "type",
+  "files.watcherExclude": {
+    "**/target": true
+  }
+}
